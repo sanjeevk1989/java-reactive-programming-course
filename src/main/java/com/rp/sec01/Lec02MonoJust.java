@@ -6,7 +6,7 @@ public class Lec02MonoJust {
 
     public static void main(String[] args) {
 
-        // publisher
+        // publisher Sanjneev
         Mono<Integer> mono = Mono.just(1);
 
         System.out.println(mono);

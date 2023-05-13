@@ -16,8 +16,8 @@ public class Lec01Stream {
                                             return i * 2;
                                         });
 
-        //System.out.println(stream);
         stream.forEach(System.out::println);
+        stream.forEach(System.out::println); // Sanjeev
 
     }
 
